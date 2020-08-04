@@ -1,0 +1,43 @@
+.app {
+    border: 1px solid grey;
+    padding: 7.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.buttonsGroup {
+    width: 15%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.buttonsGroup button {
+    border: none;
+    outline: none;
+    background-color: #872233;
+    border-radius: 24px;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.32s cubic-bezier(0.6, 0.28, 0.735, 0.045);
+}
+.buttonsGroup button:hover {
+    background-color: rgb(206, 18, 18);
+}
+.itemsWrap {
+    width: 11%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 12px 1px;
+    margin: 2px;
+    margin-bottom: 10px;
+}
+.contentWrap {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.contentWrap b {
+    font-size: 24px;
+}
